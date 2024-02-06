@@ -1,0 +1,35 @@
+.StartBox{ 
+    
+/*    display:none;*/
+/*
+    width:500px;
+    height:160px;
+*/
+    width: auto;
+    height: auto;
+    background-color: #ff3300;
+    opacity: 1;
+    color: black;
+    padding: 2em;
+/*    position: relative;*/
+
+/*    top: 40%;*/
+    text-shadow: none;
+    z-index: 1000;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    font-family: 'McLaren', cursive;
+    font-size: 18px;
+     margin:0 10%;
+
+}
+
+/*These styles are from infoBox so modify them to suit the right need*/
+
+.FirstInput{
+    
+    margin-bottom: 2em;
+}
+
+

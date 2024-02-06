@@ -1,0 +1,119 @@
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.Content {
+/*
+
+    margin-top: 72px;
+    margin-left: 2em;
+*/
+    height: 100%;
+    width: 100%;
+
+}
+
+.ButtonsWrapper{
+    
+    position: fixed;
+    right: 0;
+    bottom:0;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.SignIn {
+
+/*    margin-right: 2em;*/
+    position: absolute;
+    left: 2em;
+    top: 8em;
+    width: 80px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    background-color: darkviolet;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.SignIn:hover {
+
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.SignOut {
+
+/*
+    margin-right: 2em;
+    float: right;
+    margin-top: 450px;
+*/    
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.SaveGame {
+
+/*
+    margin-right: 5em;
+    float: right;
+    margin-top: 450px;
+*/
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    background-color: skyblue;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.LoadGame {
+
+/*
+    margin-right: 2em;
+    float: right;
+    margin-top: 450px;
+*/
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    background-color: darkseagreen;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+@media (max-width: 800px) {
+
+    .SignOut {
+
+        left: 440px;
+        top: 540px;
+    }
+
+    .SaveGame {
+
+        left: 440px;
+        top: 620px;
+    }
+
+    .LoadGame {
+
+        left: 440px;
+        top: 680px;
+    }
+}

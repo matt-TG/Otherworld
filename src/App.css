@@ -1,0 +1,103 @@
+/*
+.Body{
+    
+    width: 660px;
+    height: 520px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid black;
+    margin: 1em;
+}*/
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#root{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.Layout{
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+.Lightbox {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*  Display will get value table, when it is fading in  */
+    display: none; 
+    width: 100%;
+    height: 100%;
+    /*  padding: 10% 35% 25% 35%;*/
+    color: #000000;
+    background-color: rgba(153, 204, 204, 0.9);
+    text-align: center;
+    text-shadow: #333 0 1px 0;
+}
+
+.Welcome {
+    
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    color: gold;
+    text-shadow: 4px 4px darkgoldenrod;
+    /*    position: relative;*/
+    margin: 0 auto;
+    /*    top: 5%;*/
+}
+
+
+/*
+@media (min-width: 1740px){
+    
+    .Lightbox{
+        
+        width: 482px;
+        height: 310px;
+        
+    }
+}
+
+@media (min-width: 1740px){
+    
+    .Lightbox{
+        
+        width: 482px;
+        
+    }
+}
+*/
+
+
+/*
+@media (max-width: 800px) {
+
+    .Lightbox {
+
+        padding: 15% 45% 50% 45%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .Lightbox {
+
+        padding: 25% 60% 650px 60%;
+    }
+}
+*/

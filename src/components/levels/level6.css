@@ -1,0 +1,10 @@
+.Body{
+    
+    width: 640px;
+    height: 520px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid black;
+/*    margin: 1em;*/
+}

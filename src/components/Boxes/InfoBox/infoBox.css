@@ -1,0 +1,20 @@
+.InfoBox{
+    
+    display:none;
+/*
+    width:260px;
+    height:160px;
+*/
+    background-color: lightblue;
+    opacity: 0.7;
+    color: black;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    z-index: 300;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    font-family: 'McLaren', cursive;
+    font-size: 18px;
+}

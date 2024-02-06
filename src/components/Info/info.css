@@ -1,0 +1,67 @@
+.Info{
+    
+    border: 1px solid gold;
+    border-radius: 1em;
+    background-color: cadetblue;
+    z-index: 2000;
+    margin-right: .5em;
+    position: absolute;
+    top: 3em;
+    left: 0;
+    padding-right: 1em;
+}
+
+.Info li{
+    
+    margin-bottom: 1em;
+    padding: 2px;
+}
+
+.Back{
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    margin: 1em;
+    border-radius: .2em;
+    background-color: aquamarine;
+    z-index: 100;
+}
+
+.CopyR{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1em;
+}
+
+.Credits{
+    
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-bottom-right-radius: 1em;
+    float:right;
+}
+
+.CreditsContent{
+    
+    display:none;
+    
+}
+
+.Head{
+    
+    margin-left: 1em;
+}
+
+@media (max-width: 500px){
+    
+    .Info{
+        
+        width: 100vw; 
+    }
+
+}
